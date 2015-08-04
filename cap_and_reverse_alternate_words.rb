@@ -9,9 +9,9 @@ def cap_and_reverse_alternate str
   while i <= arr_string.size - 1
     current_word = arr_string[i]
     if i % 2 == 0
-      arr[i] = current_word.swapcase
-    else
       arr[i] = current_word.reverse
+    else
+      arr[i] = current_word.swapcase
     end
     i += 1
   end
