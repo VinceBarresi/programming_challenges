@@ -24,7 +24,7 @@ def even_odd arr
     end
     i += 1
   end
-  p 'Array sorted with even vales in even indeces and odd values in odd indeces: '"#{sort_arr}"
+  p sort_arr
 end
 
 even_odd arr
