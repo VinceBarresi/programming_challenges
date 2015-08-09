@@ -13,4 +13,4 @@ def cap_and_reverse_alternate str
   puts arr.join(" ")
 end
 
-cap_and_reverse_alternate "this is a test string"
+cap_and_reverse_alternate 'this is a test string'
