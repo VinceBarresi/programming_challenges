@@ -24,7 +24,7 @@ def even_odd arr
     end
     i += 1
   end
-  p sort_arr
+  sort_arr
 end
 
 even_odd arr

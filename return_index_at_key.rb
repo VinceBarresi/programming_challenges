@@ -14,7 +14,7 @@ def index_at_key key, arr
     end
     i += 1
   end
-  p key_arr.join(", ")
+  key_arr.join(", ")
 end
 
 index_at_key rand(1..10), arr
