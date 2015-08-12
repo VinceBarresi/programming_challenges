@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require_relative '../even_odd_index'
+require_relative '../src/even_odd_index'
 
 describe 'even and odd values of array' do
   it 'should sort even values in even indeces and odd values in odd indeces' do

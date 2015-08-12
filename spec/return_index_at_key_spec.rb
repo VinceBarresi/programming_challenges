@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require_relative '../return_index_at_key'
+require_relative '../src/return_index_at_key'
 
 describe 'returns the index of a value in an array' do
   it 'should take a value and return the index of that value' do

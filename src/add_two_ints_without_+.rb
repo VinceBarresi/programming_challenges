@@ -12,7 +12,7 @@ def sum a, b
     a = a^b # binary XOR - copies bit to a from b if not set in b
     b = carry << 1
   end
-  puts a
+  a
 end
 
-sum rand(-20), rand(100)
+sum rand(20), rand(100)

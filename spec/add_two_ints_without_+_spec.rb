@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require_relative '../add_two_ints_without_+'
+require_relative '../src/add_two_ints_without_+'
 
 describe 'integer addition without +' do
   it 'adds two integers at the bit level' do

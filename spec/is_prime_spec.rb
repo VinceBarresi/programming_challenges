@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require_relative '../is_prime'
+require_relative '../src/is_prime'
 
 describe 'prime number' do
   it 'returns true if a number is prime' do

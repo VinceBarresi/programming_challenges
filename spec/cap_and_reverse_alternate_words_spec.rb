@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require_relative '../cap_and_reverse_alternate_words'
+require_relative '../src/cap_and_reverse_alternate_words'
 
 describe 'capitalize and reverse alternate words of a string' do
   it 'should take a string and capitalize and reverse alternate words' do
