@@ -1,0 +1,12 @@
+require_relative 'spec_helper'
+require_relative '../is_prime'
+
+describe 'prime number' do
+  it 'returns true if a number is prime' do
+    expect(is_prime?(3)).to eq(true)
+  end
+
+  it 'returns false if a number is not prime' do
+    expect(is_prime?(9)).to eq(false)
+  end
+end
