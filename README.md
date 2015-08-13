@@ -15,3 +15,5 @@ Ruby solutions to various programming questions and challenges
 5. Add two integers without using + 
 
 6. Check if an integer is a prime number
+
+7. Check if the parentheses of a string are valid
