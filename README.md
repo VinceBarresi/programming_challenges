@@ -4,7 +4,7 @@ Ruby solutions to various programming questions and challenges
 
 ## Algorithms ##
 
-1. Capitalize and Reverse alternate words in a string
+1. Capitalize and reverse alternate words in a string
 
 2. Return index of a key value in a sorted array
 
@@ -17,3 +17,5 @@ Ruby solutions to various programming questions and challenges
 6. Check if an integer is a prime number
 
 7. Check if the parentheses of a string are valid
+
+8. Decimal representation of a rational number - numerator/denominator
