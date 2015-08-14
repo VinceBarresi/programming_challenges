@@ -19,3 +19,5 @@ Ruby solutions to various programming questions and challenges
 7. Check if the parentheses of a string are valid
 
 8. Decimal representation of a rational number - numerator/denominator
+
+9. Produce largest int from digits of an int
