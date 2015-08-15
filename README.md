@@ -21,3 +21,5 @@ Ruby solutions to various programming questions and challenges
 8. Decimal representation of a rational number - numerator/denominator
 
 9. Produce largest int from digits of an int
+
+10. Return a list of values that intersect between two strings
