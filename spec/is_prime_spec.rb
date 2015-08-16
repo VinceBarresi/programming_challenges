@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../src/is_prime'
 
-describe 'prime number' do
+describe 'is prime' do
   it 'returns true if a number is prime' do
     expect(is_prime?(3)).to eq(true)
   end

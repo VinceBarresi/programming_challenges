@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../src/even_odd_index'
 
-describe 'even and odd values of array' do
+describe 'even odd index' do
   it 'should sort even values in even indeces and odd values in odd indeces' do
     arr = [1, 2, 3, 4, 5, 6]
     expect(even_odd(arr)).to eq([2, 1, 4, 3, 6, 5])

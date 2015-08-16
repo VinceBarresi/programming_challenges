@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../src/add_two_ints_without_+'
 
-describe 'integer addition without +' do
+describe 'sum' do
   it 'adds two integers at the bit level' do
     expect(sum(27, 3)).to eq(30)
   end

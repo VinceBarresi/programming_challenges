@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../src/string_parenth'
 
-describe 'a string with parentheses' do
+describe 'valid parenths' do
   it 'should have matching parentheses' do
     str = '((a))'
       expect(valid_parenths(str)).to eq('valid string')
