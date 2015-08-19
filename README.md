@@ -23,3 +23,5 @@ Ruby solutions to various programming questions and challenges
 9. Produce largest int from digits of an int
 
 10. Return a list of values that intersect between two strings
+
+11. Determine which character appears the most in a string
