@@ -3,6 +3,7 @@
   appears the most and print it.
 =end
 
+# O(n)
 def most_char str
   max, letter, i, count, str_arr, = 0, '', 0, [], str.split("")
     str_arr.each do |c|
