@@ -25,3 +25,6 @@ Ruby solutions to various programming questions and challenges
 10. Return a list of values that intersect between two strings
 
 11. Determine which character appears the most in a string
+
+12. Format the following statement:
+     Sea!tle is a nice place. Work Hard! have Fun, make HIStory!
