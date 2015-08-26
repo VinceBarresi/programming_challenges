@@ -30,3 +30,5 @@ Ruby solutions to various programming questions and challenges
      Sea!tle is a nice place. Work Hard! have Fun, make HIStory!
 
 13. Remove duplicate characters from a pair of strings
+
+14. Returns a final string if sum of equal parts of a string are equal to eachother
