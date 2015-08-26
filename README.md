@@ -28,3 +28,5 @@ Ruby solutions to various programming questions and challenges
 
 12. Format the following statement:
      Sea!tle is a nice place. Work Hard! have Fun, make HIStory!
+
+13. Remove duplicate characters from a pair of strings
