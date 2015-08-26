@@ -6,16 +6,16 @@
 
 #O(n) solution
 
-def string_intersection str_arr1 = [], str_arr2 = []
+def string_intersection str1, str2
   intersection = []
-  bigger = (str_arr1.size > str_arr2.size ? str_arr1 : str_arr2)
-  smaller = (str_arr1.size < str_arr2.size ? str_arr1 : str_arr2)
-  bigger.each do |key|
+  bigger = (str1.split(' ').size > str2.split(' ').size ? str1 : str2)
+  smaller = (str1.split(' ').size < str2.split(' ').size ? str1 : str2)
+  bigger.split(' ').each do |key|
     if smaller.include?(key)
       intersection << key 
     end
   end
-  intersection
+  intersection.join
 end
 
-p string_intersection ['a','a','a', 'b', 'd'], ['a', 'a', 'c', 'd']
+p string_intersection 'aaacd', 'aacd'
