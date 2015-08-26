@@ -9,7 +9,7 @@
 def string_intersection str_arr1, str_arr2
   intersection = []
   str_arr1.each do |key|
-    if str_arr2.include?(key) == true 
+    if str_arr2.include?(key)
       intersection << key 
     end
   end
