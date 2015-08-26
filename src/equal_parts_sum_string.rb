@@ -7,7 +7,7 @@ in the new string.
 Final string should be "12345876678".
 =end
 
-def equal_part_sum_string str
+def equal_parts_sum_string str
   half, i, arr_1, arr_2, sum_1, sum_2 = str.length / 2, 0, [], [], 0, 0
   str.split('').each do |c|
     i < half ? arr_1 << c : arr_2 << c
@@ -24,4 +24,4 @@ def equal_part_sum_string str
   end
 end
 
-p equal_part_sum_string '678876'
+p equal_parts_sum_string '678876'
