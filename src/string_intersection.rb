@@ -6,10 +6,12 @@
 
 #O(n) solution
 
-def string_intersection str_arr1, str_arr2
+def string_intersection str_arr1 = [], str_arr2 = []
   intersection = []
-  str_arr1.each do |key|
-    if str_arr2.include?(key)
+  bigger = (str_arr1.size > str_arr2.size ? str_arr1 : str_arr2)
+  smaller = (str_arr1.size < str_arr2.size ? str_arr1 : str_arr2)
+  bigger.each do |key|
+    if smaller.include?(key)
       intersection << key 
     end
   end
