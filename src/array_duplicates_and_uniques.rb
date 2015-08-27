@@ -19,7 +19,7 @@ def array_duplicates arr1 = [], arr2 = [], arr3 = []
   bigger1.each { |c| arr4 << c if smaller1.include?(c) }
   bigger2 = (arr3.size > arr4.size ? arr3 : arr4)
   smaller2 = (arr4.size < arr4.size ? arr3 : arr4)
-  bigger2.each { |c| arr5.push(c) if !smaller2.include?(c) }
+  bigger2.each { |c| arr5 << c if !smaller2.include?(c) }
   arr5.sort
 end
 
