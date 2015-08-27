@@ -34,3 +34,5 @@ Ruby solutions to various programming questions and challenges
 14. Return a final string if sum of equal parts of a string are equal to eachother
 
 15. Return unique elements after comparing arrays of duplicate elements
+
+16. Check whether two strings are anagrams of eachother
