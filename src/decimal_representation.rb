@@ -5,7 +5,7 @@
 =end
 
 def decimal_representation x, y 
-  temp = (x.to_f / y).round(2).to_s.split("")
+  temp = (x.to_f / y).round(2).to_s.split('')
   a = temp[0]
   rem = temp[1..temp.size-1]
   rem.size-1.times do |i|
