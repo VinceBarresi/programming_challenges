@@ -36,3 +36,5 @@ Ruby solutions to various programming questions and challenges
 15. Return unique elements after comparing arrays of duplicate elements
 
 16. Check whether two strings are anagrams of eachother
+
+17. Given an array of words, group together the anagrams
