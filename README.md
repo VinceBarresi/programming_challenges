@@ -38,3 +38,5 @@ Ruby solutions to various programming questions and challenges
 16. Check whether two strings are anagrams of eachother
 
 17. Given an array of words, group together the anagrams
+
+18. Given a string of integers, print the sum
