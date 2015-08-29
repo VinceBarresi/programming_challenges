@@ -40,3 +40,5 @@ Ruby solutions to various programming questions and challenges
 17. Given an array of words, group together the anagrams
 
 18. Given a string of integers, print the sum
+
+19. Given 2 large numbers A and B, create a new number C where C > B using digits from A
