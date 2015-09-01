@@ -18,4 +18,4 @@ def int_to_list int
 	int_list.display
 end
 
-p int_to_list 1233
+p int_to_list 123
