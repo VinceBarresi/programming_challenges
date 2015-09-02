@@ -49,6 +49,6 @@ Ruby solutions to various programming questions and challenges
 
 22. Given a linked list, print n nodes from tail of the list in reverse order
 
-23. Given a sum print all numbers and their 
+23. Given a sum, print all numbers and their 
   index from an un-ordered array that add up 
   the sum value
