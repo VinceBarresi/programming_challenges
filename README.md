@@ -46,3 +46,5 @@ Ruby solutions to various programming questions and challenges
 20. Given an integer, convert it into a Linked List
 
 21. Input the length of sides of a triangle and output the triangle type
+
+22. Given a linked list, print n nodes from tail of the list in reverse order
