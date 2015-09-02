@@ -6,6 +6,7 @@
   4(index 1)+ 4(index2),å and so on..
 =end
 
+# O(n)
 def sum_of_index_values sum_arr = [], sum
   sum_hash, i = {}, 0
   sum_arr.each do |x|
