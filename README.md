@@ -44,3 +44,5 @@ Ruby solutions to various programming questions and challenges
 19. Given 2 large numbers A and B, create a new number C where C > B using digits from A
 
 20. Given an integer, convert it into a Linked List
+
+21. Given a linked list, print n nodes from tail of the list in reverse order
