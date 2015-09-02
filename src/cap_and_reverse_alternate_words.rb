@@ -4,6 +4,7 @@
   words. Make sure the spaces in the word stay as is.
 =end
 
+# O(n)
 def cap_and_reverse_alternate str
   arr_string, arr, = str.split, []
   0.upto(arr_string.size - 1) do |i|

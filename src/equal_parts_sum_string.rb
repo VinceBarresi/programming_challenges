@@ -7,6 +7,7 @@ in the new string.
 Final string should be "12345876678".
 =end
 
+# O(n)
 def equal_parts_sum_string str
   half, i, arr_1, arr_2, sum_1, sum_2 = str.length / 2, 0, [], [], 0, 0
   str.split('').each do |c|

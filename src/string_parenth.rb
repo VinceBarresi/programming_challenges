@@ -3,6 +3,7 @@
   or invalid.
 =end
 
+# O(n)
 def valid_parenths str
   str, lft_par, rgt_par, i = str.split(''), 0, 0, 0
   while i <= str.size - 1

@@ -10,6 +10,7 @@
 require_relative '../src/linked_list'
 require_relative '../src/list_node'
 
+# O(n)
 def nodes_from_tail n
   n_list = LinkedList.new(1)
   2.upto(10) { |i| n_list.add(i) }

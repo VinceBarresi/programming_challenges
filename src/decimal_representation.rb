@@ -4,6 +4,7 @@
   of the rational number numerator/denominator.
 =end
 
+# O(n)
 def decimal_representation x, y 
   temp = (x.to_f / y).round(2).to_s.split('')
   a = temp[0]
