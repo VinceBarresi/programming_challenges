@@ -92,6 +92,17 @@ class LinkedList
     full_list.join('').to_i
   end
 
+  def list_to_str
+    current = @head
+    full_list = [] 
+    while current.next_node != nil 
+      full_list += [current.value.to_s]
+      current = current.next_node
+    end
+    full_list += [current.value.to_s]
+    full_list.join('').to_i.to_s
+  end
+
   def display_reverse_list
     current = @head
     full_list = []
@@ -123,5 +134,38 @@ class LinkedList
     end
     full_list += [current.value.to_s]
     full_list.reverse.join('').to_i
+  end
+
+  def list_reverse_to_str
+    current = @head
+    full_list = [] 
+    while current.next_node != nil 
+      full_list += [current.value.to_s]
+      current = current.next_node
+    end
+    full_list += [current.value.to_s]
+    full_list.reverse.join('').to_i.to_s
+  end
+
+  def list_to_arr
+    current = @head
+    full_list = []
+    while current.next_node != nil
+      full_list += [current.value.to_s]
+      current = current.next_node
+    end
+    full_list += [current.value.to_s]
+    full_list
+  end
+
+  def list_to_reverse_arr
+    current = @head
+    full_list = []
+    while current.next_node != nil
+      full_list += [current.value.to_s]
+      current = current.next_node
+    end
+    full_list += [current.value.to_s]
+    full_list.reverse
   end
 end
