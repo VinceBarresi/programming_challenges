@@ -100,7 +100,7 @@ class LinkedList
       current = current.next_node
     end
     full_list += [current.value.to_s]
-    full_list.join('').to_i.to_s
+    full_list.join()
   end
 
   def display_reverse_list
@@ -144,7 +144,7 @@ class LinkedList
       current = current.next_node
     end
     full_list += [current.value.to_s]
-    full_list.reverse.join('').to_i.to_s
+    full_list.reverse.join()
   end
 
   def list_to_arr
