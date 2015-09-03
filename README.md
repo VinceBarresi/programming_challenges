@@ -52,3 +52,5 @@ Ruby solutions to various programming questions and challenges
 23. Given a sum, print all numbers and their 
   index from an un-ordered array that add up 
   the sum value
+
+24. Write a program to replace 0's with 5's in any array given.
