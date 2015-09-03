@@ -3,6 +3,7 @@
   that could be formed from the digits.
 =end
 
+# O(n)
 def largest_int x
   x.to_s.split('').sort.reverse.join.to_i
 end

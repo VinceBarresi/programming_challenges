@@ -8,6 +8,7 @@
 require_relative 'linked_list'
 require_relative 'list_node'
 
+# O(n)
 def int_to_list int
 	int_arr, x = int.to_s.split(''), 1
 	int_list = LinkedList.new(int_arr.first)
