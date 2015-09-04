@@ -4,7 +4,7 @@
   with all of the intersections of the strings
 =end
 
-# O(n)
+# O(n^2)
 def string_intersection str1, str2
   intersection = []
   bigger = (str1.split(' ').size > str2.split(' ').size ? str1 : str2)

@@ -2,7 +2,7 @@
   Given two strings, remove the duplicates.
 =end
 
-# O(n)
+# O(n^2)
 def remove_duplicates str1, str2
   bigger = (str1.length > str2.length ? str1 : str2).split('')
   smaller = (bigger == str1 ? str2 : str1).split('')  

@@ -11,7 +11,7 @@
   from both of the arrays.
 =end
 
-# O(n)
+# O(n^2)
 def array_duplicates arr1 = [], arr2 = [], arr3 = []
   bigger1 = (arr1.size > arr2.size ? arr1 : arr2)
   smaller1 = (arr1.size < arr2.size ? arr1 : arr2)
