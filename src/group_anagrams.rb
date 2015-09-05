@@ -4,7 +4,7 @@
   output:{[tar,rat,atr],[banana]}
 =end
 
-# O(n)
+# O(n^2)
 def group_anagrams arr = []
   sort_arr, sort_hash, new_sort_arr = [], {}, []
   arr = arr.each {|w| sort_arr << w.split('').sort.join}
