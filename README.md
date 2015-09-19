@@ -56,3 +56,5 @@ Ruby solutions to various programming questions and challenges
 24. Write a program to replace 0's with 5's in any array given.
 
 25. Write a program to find the first unique element in an array.
+
+26. Write a function that counts the number of primes within a range of numbers.
