@@ -14,15 +14,9 @@ def equal_parts_sum_string str
     i < half ? arr_1 << c : arr_2 << c
     i += 1
   end
-  0.upto(arr_1.size) do |i|
-    sum_1 += i
-  end
-  0.upto(arr_2.size) do |i|
-    sum_2 += i
-  end
-  if sum_1 == sum_2
-    str = '12345' + arr_2.join + arr_1.join
-  end
+  0.upto(arr_1.size) { |i| sum_1 += i }
+  0.upto(arr_2.size) { |i| sum_2 += i }
+  str = '12345' + arr_2.join + arr_1.join if sum_1 == sum_2
 end
 
 p equal_parts_sum_string '678876'
