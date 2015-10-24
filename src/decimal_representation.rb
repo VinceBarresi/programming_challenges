@@ -7,12 +7,9 @@
 # O(n)
 def decimal_representation x, y 
   temp = (x.to_f / y).round(2).to_s.split('')
-  a = temp[0]
-  rem = temp[1..temp.size-1]
+  a, rem = temp[0], temp[1..temp.size-1]
   rem.size-1.times do |i|
-    if rem[i] == '.'
-      rem.insert(i+1, '(')
-    end
+    rem.insert(i+1, '(') if rem[i] == '.'
     i+=1
   end
   rem.insert(rem.size, ')')
