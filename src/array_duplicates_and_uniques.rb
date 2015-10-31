@@ -23,4 +23,3 @@ def array_duplicates arr1 = [], arr2 = [], arr3 = []
   arr5.sort
 end
 
-p array_duplicates [1,3,5,7,9], [1,2,3,5,4,1,8,9,7], [1,3,5,7,9,2,1,4,6,5,8]
