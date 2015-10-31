@@ -12,5 +12,3 @@ def string_intersection str1, str2
   bigger.split(' ').each {|key| intersection << key if smaller.include?(key) }
   intersection.join
 end
-
-p string_intersection 'aaacd', 'aacd'
