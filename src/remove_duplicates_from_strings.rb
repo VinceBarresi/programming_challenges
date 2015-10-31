@@ -9,5 +9,3 @@ def remove_duplicates str1, str2
   bigger.each {|c| bigger.delete(c) && smaller.delete(c) if smaller.include?(c)}
   smaller.join + ' ' + bigger.join
 end
-
-p remove_duplicates 'abc', 'cde'
