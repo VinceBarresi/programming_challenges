@@ -14,5 +14,3 @@ def sort_by_occurrence
   word_arr = word_arr.split(" ")
   word_frequency = word_arr.group_by { |w| w }.map { |w, ws| [w, ws.length] }.sort_by {|k, v| v}.join(" ").gsub(/\d+/, "")
 end
-
-sort_by_occurrence
