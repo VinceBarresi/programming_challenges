@@ -14,4 +14,3 @@ def most_char str
   letter
 end
 
-puts most_char 'ihhasakkkkkl'
