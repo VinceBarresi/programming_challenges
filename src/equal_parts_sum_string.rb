@@ -18,5 +18,3 @@ def equal_parts_sum_string str
   0.upto(arr_2.size) { |i| sum_2 += i }
   str = '12345' + arr_2.join + arr_1.join if sum_1 == sum_2
 end
-
-p equal_parts_sum_string '678876'
