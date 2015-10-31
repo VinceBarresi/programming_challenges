@@ -12,5 +12,3 @@ def is_prime? n
   end
   return true
 end
-
-p is_prime? 15
