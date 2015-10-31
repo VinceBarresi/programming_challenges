@@ -18,5 +18,3 @@ def sum_of_index_values sum_arr = [], sum
     puts "#{remainder} " + '(index '"#{sum_arr[i]}"')' if sum_hash.include?(remainder)
   end
 end
-
-sum_of_index_values sum_arr = [1,4,4,3,7,5,8], 8
