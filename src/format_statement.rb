@@ -26,5 +26,3 @@ def format_statement
   str = str.join(" ").gsub(",", ".").gsub("!", '.').split(" ")
   puts str[5..6].join(" ") + "\n" + str[7..8].join(" ") + "\n" + str[9..10].join(" ")
 end
-
-format_statement
