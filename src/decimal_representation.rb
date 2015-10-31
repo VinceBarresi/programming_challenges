@@ -16,4 +16,3 @@ def decimal_representation x, y
   a.to_s + rem.join
 end
 
-puts decimal_representation 11, 3
