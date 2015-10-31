@@ -3,15 +3,6 @@
   indeces and the odd value integers are in odd indeces.
 =end
 
-arr = []
-  
-rand(50).times do |i|
-  arr[i] = rand(10)
-end
-  
-puts 'Unsorted Random Array: '"#{arr}"
-puts "\n"
-
 def even_odd arr
   sort_arr, i, j, k = [], 0, 0, 1
   0.upto(arr.size - 1) do
@@ -26,5 +17,3 @@ def even_odd arr
   end
   sort_arr
 end
-
-even_odd arr
