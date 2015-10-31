@@ -7,8 +7,7 @@
 
 # O(n)
 def create_c a, b
-	c = a.to_s.split('').sort.reverse.join.to_i
-	c < b ? nil : c
+  c = a.to_s.split('').sort.reverse.join.to_i
+  c < b ? nil : c
 end
 
-p create_c 5281, 7443
