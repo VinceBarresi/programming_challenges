@@ -15,4 +15,3 @@ def sum a, b
   a
 end
 
-sum rand(20), rand(100)
