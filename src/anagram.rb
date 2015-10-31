@@ -12,4 +12,3 @@ def anagram? str1, str2
   str1 == str2 ? true : false
 end
 
-p anagram? 'secure', 'rescue'
