@@ -11,5 +11,3 @@ def group_anagrams arr = []
   0.upto(arr.size-1) { |i| sort_hash.store(arr[i], sort_arr[i]) }
   new_sort_arr << sort_hash.sort_by {|k, v| k.length}.to_h.keys[0..arr.size-1]
 end 
-
-p group_anagrams ['tar','rat','banana','atr']
