@@ -19,5 +19,3 @@ def nodes_from_tail n
   1.upto(n-1) { |i| new_list.add(reverse_list[i]) }
   new_list.display
 end
-
-p nodes_from_tail 3
