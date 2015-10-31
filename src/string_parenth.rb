@@ -16,5 +16,3 @@ def valid_parenths str
   end
   lft_par == rgt_par ? 'valid string' : 'invalid string'
 end
-
-valid_parenths '((hello)'
