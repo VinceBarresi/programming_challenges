@@ -8,19 +8,17 @@
 =end
 
 def determine_triangle
-	x = gets.chomp
-	y = gets.chomp
-	z = gets.chomp
-	return 'error' if (x.empty? ||  y.empty? || z.empty? || x == nil ||  y == nil || z == nil)
-	if ((x != y) && (y != z) && (x != z))
-		return 'scalene'
-	elsif ((x == y && y != z) || (z == y && z != x) || (x == z && z != y))
-		return 'isosceles'
-	elsif ((x == y) && (y == z))
-		return 'equilateral'
-	else 
-		return 'error'
-	end
+  x = gets.chomp
+  y = gets.chomp
+  z = gets.chomp
+  return 'error' if (x.empty? ||  y.empty? || z.empty? || x == nil ||  y == nil || z == nil)
+  if ((x != y) && (y != z) && (x != z))
+    return 'scalene'
+    elsif ((x == y && y != z) || (z == y && z != x) || (x == z && z != y))
+      return 'isosceles'
+    elsif ((x == y) && (y == z))
+      return 'equilateral'
+    else 
+      return 'error'
+    end
 end
-
-p determine_triangle
