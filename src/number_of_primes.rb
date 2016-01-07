@@ -15,6 +15,6 @@ def number_of_primes range
     end
     i = 2
     prime_count += 1 if prime != false
-    end
+  end
   prime_count
 end
