@@ -4,7 +4,6 @@
 
 # O(n)
 def index_at_key key, arr
-  puts 'key is: ' + key.to_s
   i, j, key_arr = 0, 0, []
   while i <= arr.size - 1
     if arr[i] == key
